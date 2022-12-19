@@ -60,7 +60,8 @@
 
 .dd:hover,
 .dd.expanded,
-.ua-login:hover {
+.ua-login:hover,
+.footer-link:hover {
   text-decoration: underline;
   text-underline-offset: 0.375em;
   text-decoration-thickness: 0.125em;
@@ -111,8 +112,8 @@
 .dd-link:hover {
   transform: scale(1.05) translateZ(0);
   backface-visibility: hidden;
-  color: var(--neutral-clr-800);
   text-decoration: underline;
+  color: var(--neutral-clr-800);
 }
 
 .illustration-editor-container {
@@ -142,6 +143,15 @@
   .illustration-editor-container {
     transform: none;
   }
+}
+
+.footer-links {
+  background-color: var(--neutral-clr-800);
+  border-top-right-radius: 5.5rem;
+}
+
+.footer-link {
+  opacity: 0.8;
 }
 
 @keyframes dd {
