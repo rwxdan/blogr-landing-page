@@ -1,4 +1,3 @@
-import React from "react";
 import EditorDesktop from "/src/assets/static/images/illustration-editor-desktop.svg";
 import EditorMobile from "/src/assets/static/images/illustration-editor-mobile.svg";
 const Editor = () => {

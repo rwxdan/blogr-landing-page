@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "/src/assets/static/images/logo.svg";
 import { links } from "/src/constants";
 const FooterLinks = () => {

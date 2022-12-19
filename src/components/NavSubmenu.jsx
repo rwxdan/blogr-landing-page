@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect, useRef } from "react";
 const NavSubmenu = (props) => {
   const [isOpen, setOpen] = useState(false);

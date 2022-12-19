@@ -1,4 +1,3 @@
-import React from "react";
 import IllustrationPhones from "/src/assets/static/images/illustration-phones.svg";
 const Phones = () => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import LaptopDesktop from "/src/assets/static/images/illustration-laptop-desktop.svg";
 import LaptopMobile from "/src/assets/static/images/illustration-laptop-mobile.svg";
 const Laptop = () => {
