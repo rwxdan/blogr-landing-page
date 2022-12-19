@@ -80,7 +80,7 @@
   padding-block: 1.25rem;
   padding-inline: 1.5rem 3rem;
   position: absolute;
-  top: 2rem;
+  top: 2.5rem;
   right: -3.75rem;
   box-shadow: 0 0.5em 2.5em var(--neutral-clr-750);
   animation: dd 300ms ease-in-out;
@@ -88,11 +88,11 @@
 }
 
 .dd-container#product {
-  right: -4em;
+  right: -4.5em;
 }
 
 .dd-container#company {
-  right: -2em;
+  right: -2.25em;
 }
 
 .dd-container#connect {
@@ -102,7 +102,7 @@
 .dd-link {
   display: block;
   padding-block: 0.25rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--neutral-clr-700);
   transition: linear 100ms;
@@ -113,6 +113,12 @@
   backface-visibility: hidden;
   color: var(--neutral-clr-800);
   text-decoration: underline;
+}
+
+.illustration-editor {
+  position: absolute;
+  right: -62.5rem;
+  top: -11rem;
 }
 
 @keyframes dd {
