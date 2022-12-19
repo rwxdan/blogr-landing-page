@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Hero, Editor } from "./components";
+import { Nav, Hero, Editor, Phones } from "./components";
 const App = () => {
   return (
     <article>
@@ -10,6 +10,7 @@ const App = () => {
         </div>
       </div>
       <Editor />
+      <Phones />
     </article>
   );
 };
