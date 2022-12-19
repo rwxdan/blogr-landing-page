@@ -11,7 +11,7 @@ const NavSubmenu = (props) => {
   };
 
   return (
-    <li className="relative dd-parent">
+    <li className="relative">
       <button
         ref={ref}
         aria-controls={props.id}
