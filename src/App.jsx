@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Hero, Editor, Phones } from "./components";
+import { Nav, Hero, Editor, Phones, Laptop } from "./components";
 const App = () => {
   return (
     <article>
@@ -11,6 +11,7 @@ const App = () => {
       </div>
       <Editor />
       <Phones />
+      <Laptop />
     </article>
   );
 };
