@@ -4,7 +4,7 @@ import { links } from "/src/constants";
 import NavSubmenu from "./NavSubmenu";
 const Nav = () => {
   return (
-    <div className="article flex  my-[3.75rem] px-5 items-center justify-between">
+    <div className="article flex  my-[3.75rem] px-5 items-center">
       <div className="flex gap-16 items-center">
         <a href="#" className="block w-auto">
           <img src={logo} alt="Blogr" />
@@ -18,13 +18,13 @@ const Nav = () => {
       </div>
       <div className="flex flex-1 justify-end gap-8 items-center">
         <a
-          className="ua-login block font-ubuntu font-bold text-[var(--neutral-clr-400)] opacity-80 hover:opacity-100"
+          className="ua-login block font-ubuntu font-bold text-[var(--neutral-clr-400)] opacity-80 hover:opacity-100 text-base"
           href="#login"
         >
           Login
         </a>
         <a
-          className="block font-ubuntu font-bold text-[var(--primary-clr-600)] bg-[var(--neutral-clr-400)] px-10 py-3 mr-[-0.5rem] rounded-full hover:text-[var(--neutral-clr-400)] hover:bg-[var(--primary-clr-500)] ease-in-out duration-200"
+          className="block font-ubuntu font-bold text-[var(--primary-clr-600)] bg-[var(--neutral-clr-400)] px-10 py-3 rounded-full hover:text-[var(--neutral-clr-400)] hover:bg-[var(--primary-clr-500)] ease-in-out duration-200 text-base"
           href="#sing-up"
         >
           Sing Up

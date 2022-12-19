@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className=" mt-[7.375rem] mb-[8rem]">
       <div className="text-center pb-6">
-        <h1 className="font-overpass text-[3.875rem] font-bold text-[var(--neutral-clr-400)] tracking-tight">
+        <h1 className="font-overpass text-[3.875rem] font-bold text-[var(--neutral-clr-400)] tracking-[-0.0325em]">
           A modern publishing platform
         </h1>
         <h2 className="text-[var(--neutral-clr-400)] text-xl">
@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="flex justify-center gap-8 items-center py-6">
         <a
           className="block px-4 py-[0.75rem] mr-[-0.5rem] rounded-full bg-[var(--neutral-clr-400)] text-[var(--primary-clr-600)] font-ubuntu font-bold text-base hover:bg-[var(--primary-clr-500)] hover:text-[var(--neutral-clr-400)] ease-in-out duration-200"
-          href="#start"
+          href="#get_started"
         >
           Start for Free
         </a>
