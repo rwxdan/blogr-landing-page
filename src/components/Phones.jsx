@@ -11,8 +11,8 @@ const Phones = () => {
             alt="Illustration of two phones displaying the Blogr app"
           />
         </div>
-        <div className="ml-12">
-          <h2 className="font-bold font-overpass tracking-[-1px] text-[var(--neutral-clr-400)] text-[2.425rem] my-1">
+        <div className="sm:ml-12 pb-24 sm:pb-0">
+          <h2 className="font-bold font-overpass tracking-[-1px] text-[var(--neutral-clr-400)]  text-3xl sm:text-[2.425rem] my-1">
             State of the Art Infrastructure
           </h2>
           <p className="font-normal font-overpass tracking-[0.0325em] text-[var(--neutral-clr-400)] font-base leading-7 max-w-[56ch] pt-3">

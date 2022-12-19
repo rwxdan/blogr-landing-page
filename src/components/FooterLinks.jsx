@@ -5,7 +5,7 @@ const FooterLinks = () => {
   return (
     <section className="footer-links sm:pt-24 pb-14">
       <div className="article">
-        <ul className="list-none grid sm:grid-cols-4 justify-center text-center sm:text-left">
+        <ul className="list-none grid sm:grid-cols-4 justify-center text-center sm:text-left px-6">
           <li className="mx-auto sm:mx-0 py-12 sm:py-0">
             <a href="#" className="block">
               <img src={logo} alt="Blogr" />

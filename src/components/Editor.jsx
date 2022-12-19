@@ -4,8 +4,8 @@ import EditorMobile from "/src/assets/static/images/illustration-editor-mobile.s
 const Editor = () => {
   return (
     <section className="overflow-hidden">
-      <div className="article pt-[9.5rem]">
-        <h2 className="text-[2.425rem] font-overpass font-bold text-[var(--neutral-clr-700)] tracking-tight text-center">
+      <div className="article pt-16 sm:pt-[9.5rem]">
+        <h2 className="text-3xl sm:text-[2.425rem] font-overpass font-bold text-[var(--neutral-clr-700)] tracking-tight text-center">
           Designed for the future
         </h2>
         <div className="flex flex-col-reverse sm:flex-row py-10">

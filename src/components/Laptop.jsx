@@ -3,7 +3,7 @@ import LaptopDesktop from "/src/assets/static/images/illustration-laptop-desktop
 import LaptopMobile from "/src/assets/static/images/illustration-laptop-mobile.svg";
 const Laptop = () => {
   return (
-    <section className="article flex flex-col sm:flex-row text-center sm:text-left py-[9.5rem] items-center my-24">
+    <section className="article flex flex-col sm:flex-row text-center sm:text-left py-16 sm:py-[9.5rem] items-center sm:my-24">
       <div className="illustration-laptop-container flex-1">
         <picture>
           <source srcSet={LaptopDesktop} media="(min-width: 768px)" />
