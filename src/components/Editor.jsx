@@ -4,14 +4,14 @@ import EditorMobile from "/src/assets/static/images/illustration-editor-mobile.s
 const Editor = () => {
   return (
     <section className="overflow-hidden">
-      <div className="article py-[9.5rem]">
+      <div className="article pt-[9.5rem]">
         <h2 className="text-[2.425rem] font-overpass font-bold text-[var(--neutral-clr-700)] tracking-tight text-center">
           Designed for the future
         </h2>
         <div className="flex flex-col-reverse sm:flex-row py-10">
-          <div className="editor-content p-6 flex flex-col gap-10 sm:text-center sm:items-center">
+          <div className="p-6 flex flex-shrink-0 flex-col gap-10 text-center sm:text-start sm:items-center">
             <div>
-              <h3 className="text-[1.75rem] font-bold font-overpass text-[var(--neutral-clr-700)] pt-8 pb-[1.5rem] tracking-[-0.0075em]">
+              <h3 className="text-[1.75rem] font-bold font-overpass text-[var(--neutral-clr-700)] pt-8 pb-[1.45rem] tracking-[-0.0075em]">
                 Introducing an extensible editor
               </h3>
               <p className="text-base font-normal font-overpass text-[var(--neutral-clr-700)] leading-7 max-w-[52.5ch] tracking-wide">
@@ -35,8 +35,8 @@ const Editor = () => {
               </p>
             </div>
           </div>
-          <div className="relative">
-            <picture className="illustration-editor">
+          <div className="illustration-editor-container">
+            <picture>
               <source srcSet={EditorDesktop} media="(min-width: 768px)" />
               <img
                 src={EditorMobile}
