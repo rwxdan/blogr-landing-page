@@ -1,0 +1,126 @@
+:root {
+  --primary-clr-500: hsl(355, 100%, 74%);
+  --primary-clr-600: hsl(356, 100%, 66%);
+  --primary-clr-700: hsl(208, 49%, 24%);
+  --neutral-clr-400: hsl(0, 0%, 100%);
+  --neutral-clr-500: hsl(240, 2%, 79%);
+  --neutral-clr-700: hsl(207, 13%, 34%);
+  --neutral-clr-750: hsl(207, 13%, 34%, 0.5);
+  --neutral-clr-800: hsl(240, 10%, 16%);
+
+  --bg-hero: linear-gradient(
+    90deg,
+    hsl(13, 100%, 72%) 50%,
+    hsl(353, 100%, 62%)
+  );
+  --bg-middle-section: linear-gradient(
+    90deg,
+    hsl(237, 17%, 21%) 10%,
+    hsl(237, 23%, 32%)
+  );
+
+  --ff-ubuntu: "Ubuntu", "Comic Sans MS", sans-serif;
+}
+
+.article {
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
+.hero {
+  background-image: url("/src/assets/static/images/bg-pattern-intro-desktop.svg"),
+    var(--bg-hero);
+  background-position: top 50% left -30vmin, top 0 right 0;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5.5rem;
+}
+
+.dd {
+  font-family: var(--ff-ubuntu);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--neutral-clr-400);
+  background-color: transparent;
+  border: 0;
+  position: relative;
+  opacity: 0.8;
+}
+
+.dd::after {
+  content: "";
+  position: absolute;
+  background-image: url("/src/assets/static/icons/icon-arrow-light.svg");
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  top: 45%;
+  right: -1.5em;
+}
+
+.dd:hover,
+.dd.expanded,
+.ua-login:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.375em;
+  text-decoration-thickness: 0.125em;
+  opacity: 1;
+}
+
+.dd.expanded::after {
+  top: 0;
+  right: -1em;
+  transform: rotate(180deg);
+}
+
+.dd-container {
+  list-style: none;
+  background-color: var(--neutral-clr-400);
+  border-radius: 0.5rem;
+  padding-block: 1.25rem;
+  padding-inline: 1.5rem 3rem;
+  position: absolute;
+  top: 2rem;
+  right: -3.75rem;
+  box-shadow: 0 0.5em 2.5em var(--neutral-clr-750);
+  animation: dd 300ms ease-in-out;
+  transform-origin: top center;
+}
+
+.dd-container#product {
+  right: -4em;
+}
+
+.dd-container#company {
+  right: -2em;
+}
+
+.dd-container#connect {
+  right: -4em;
+}
+
+.dd-link {
+  display: block;
+  padding-block: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--neutral-clr-700);
+  transition: linear 100ms;
+}
+
+.dd-link:hover {
+  transform: scale(1.05) translateZ(0);
+  backface-visibility: hidden;
+  color: var(--neutral-clr-800);
+  text-decoration: underline;
+}
+
+@keyframes dd {
+  from {
+    transform: rotateX(-90deg);
+    box-shadow: none;
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
