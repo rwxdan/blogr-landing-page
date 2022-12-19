@@ -133,6 +133,17 @@
   transform: scale(1.1) translateX(-1.75rem) translateY(1.375rem);
 }
 
+.illustration-laptop-container {
+  transform: scale(1.75) translateX(-8.25rem) translateY(0.5rem);
+}
+
+@media screen and (max-width: 768px) {
+  .illustration-laptop-container,
+  .illustration-editor-container {
+    transform: none;
+  }
+}
+
 @keyframes dd {
   from {
     transform: rotateX(-90deg);
