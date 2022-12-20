@@ -1,7 +1,5 @@
-<h1 style="text-align: center">Blogr Landing Page 👨‍💻</h1>
-<h2 style="text-align:center"><a href="">FEM</a>&nbsp;Challenge</h2>
-
----
+<h1 align="center">Blogr Landing Page 👨‍💻</h1>
+<h2  align="center"><a href="">FEM</a>&nbsp;Challenge</h2>
 
 ## What's this? 🤔
 
