@@ -165,7 +165,8 @@ h3 + .purpose {
 }
 
 .illustration-laptop-container {
-  transform: scale(1.75) translateX(-8.25rem) translateY(0.5rem);
+  transform: scale(1.25) translateX(-15.5rem) translateY(1rem);
+  margin-right: -12.5rem;
 }
 
 .footer-links {
