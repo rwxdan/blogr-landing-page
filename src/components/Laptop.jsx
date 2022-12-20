@@ -14,10 +14,8 @@ const Laptop = () => {
       </div>
       <div className="px-5 py-4 flex flex-col gap-10">
         <div>
-          <h3 className="text-[1.75rem] font-bold font-overpass text-[var(--neutral-clr-700)] pt-8 pb-[1.45rem] tracking-[-0.0075em]">
-            Free, open, simple
-          </h3>
-          <p className="text-base font-normal font-overpass text-[var(--neutral-clr-700)] leading-7 max-w-[52.5ch] tracking-wide">
+          <h3>Free, open, simple</h3>
+          <p className="purpose">
             Bloqr is a free and open source application backed bv a large
             community of helpful developers. It supports features such as code
             syntax highlighting, RSS feeds, social media integration.
@@ -27,10 +25,8 @@ const Laptop = () => {
           </p>
         </div>
         <div>
-          <h3 className="text-[1.75rem] font-bold font-overpass text-[var(--neutral-clr-700)] pt-8 pb-[1.45rem] tracking-[-0.0075em]">
-            Powerful tooling
-          </h3>
-          <p className="text-base font-normal font-overpass text-[var(--neutral-clr-700)] leading-7 max-w-[52.5ch] tracking-wide">
+          <h3>Powerful tooling</h3>
+          <p className="purpose">
             Batteries included. We built a simple and straightforward CLI tool
             that makes customization and deployment a breeze, but capable Of
             producing even the most complicated sites.

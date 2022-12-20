@@ -11,14 +11,13 @@ const Hero = () => {
       </div>
       <div className="flex justify-center gap-8 items-center py-6">
         <a
-          className="block px-4 py-[0.75rem] mr-[-0.5rem] rounded-full bg-[var(--neutral-clr-400)] text-[var(--primary-clr-600)] font-ubuntu font-bold text-base hover:bg-[var(--primary-clr-500)] hover:text-[var(--neutral-clr-400)] ease-in-out duration-200"
+          className="hero-cta px-4 py-[0.75rem] bg-[var(--neutral-clr-400)] text-[var(--primary-clr-600)] hover:bg-[var(--primary-clr-500)] hover:text-[var(--neutral-clr-400)]"
           href="#get_started"
         >
           Start for Free
         </a>
         <a
-          className="block border-[var(--neutral-clr-400)] border px-6 py-3 mr-[-0.5rem] rounded-full font-ubuntu font-bold text-base text-[var(--neutral-clr-400)] hover:bg-[var(--neutral-clr-400)] hover:text-[var(--primary-clr-600)]
-          ease-in-out duration-200"
+          className="hero-cta border-[var(--neutral-clr-400)] border px-6 py-3 text-[var(--neutral-clr-400)] hover:bg-[var(--neutral-clr-400)] hover:text-[var(--primary-clr-600)]"
           href="#learn_more"
         >
           Learn More
