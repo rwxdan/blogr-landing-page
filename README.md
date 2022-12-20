@@ -15,7 +15,7 @@ Hi there! 👋 This is my solution for the **Blogr Landing Page** **[FEM](https:
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### [🎨 Live preview 🎨]()
+### [🎨 Live preview 🎨](https://rwxdan-blogr-lp.netlify.app/)
 
 | ![](./public/screenshots/mobile_view.png) | ![](./public/screenshots/tablet_view.png) | ![](./public/screenshots/desktop_view.png) |
 | ----------------------------------------- | ----------------------------------------- | ------------------------------------------ |
