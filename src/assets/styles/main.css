@@ -209,7 +209,7 @@ h3 + .purpose {
   :root {
     --bg-hero: linear-gradient(
       180deg,
-      hsl(13, 100%, 72%) 30%,
+      hsl(13, 100%, 72%) 25%,
       hsl(353, 100%, 62%)
     );
   }
