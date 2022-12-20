@@ -4,13 +4,14 @@
   --primary-clr-700: hsl(208, 49%, 24%);
   --neutral-clr-400: hsl(0, 0%, 100%);
   --neutral-clr-500: hsl(240, 2%, 79%);
+  --neutral-clr-550: hsl(240, 2%, 79%, 0.3);
   --neutral-clr-700: hsl(207, 13%, 34%);
   --neutral-clr-750: hsl(207, 13%, 34%, 0.5);
   --neutral-clr-800: hsl(240, 10%, 16%);
 
   --bg-hero: linear-gradient(
     90deg,
-    hsl(13, 100%, 72%) 50%,
+    hsl(13, 100%, 72%) 45%,
     hsl(353, 100%, 62%)
   );
   --bg-middle-section: linear-gradient(
@@ -19,6 +20,7 @@
     hsl(237, 23%, 32%)
   );
   --ff-ubuntu: "Ubuntu", "Comic Sans MS", sans-serif;
+  --ff-overpass: "Overpass", "Comic Sans MS", sans-serif;
 }
 
 .article {
@@ -26,13 +28,23 @@
   margin-inline: auto;
 }
 
-.hero {
-  background-image: url("/src/assets/static/images/bg-pattern-intro-desktop.svg"),
-    var(--bg-hero);
-  background-position: top 50% left -30vmin, top 0 right 0;
-  background-size: 200%;
-  background-repeat: no-repeat;
-  border-bottom-left-radius: 5.5rem;
+h3 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-family: var(--ff-overpass);
+  color: var(--neutral-clr-700);
+  padding-block: 2rem 1.4375rem;
+  letter-spacing: -0.0075em;
+}
+
+h3 + .purpose {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--ff-overpass);
+  color: var(--neutral-clr-700);
+  line-height: 1.7;
+  max-width: 52.5ch;
+  letter-spacing: 0.025em;
 }
 
 .dd {
@@ -115,6 +127,25 @@
   color: var(--neutral-clr-800);
 }
 
+.hero {
+  background-image: url("/src/assets/static/images/bg-pattern-intro-desktop.svg"),
+    var(--bg-hero);
+  background-position: top 50% left -30vmin, top 0 right 0;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5.5rem;
+}
+
+.hero-cta {
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: var(--ff-ubuntu);
+  display: block;
+  margin-inline: 4px;
+  border-radius: 2em;
+  transition: 200ms ease-in-out;
+}
+
 .illustration-editor-container {
   transform: translateX(9.5rem) scale(1.25) translateY(-4.625rem);
   margin-right: -12.5rem;
@@ -156,6 +187,24 @@
   }
 }
 
+@keyframes dd-mobile {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes menu-mobile {
+  0% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
 @media screen and (max-width: 768px) {
   :root {
     --bg-hero: linear-gradient(
@@ -193,5 +242,74 @@
   }
   .illustration-phones {
     transform: scale(1) translateX(0) translateY(-2.5em);
+  }
+  .menu.expanded {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--neutral-clr-400);
+    position: absolute;
+    right: 1.5rem;
+    left: 1.5rem;
+    top: 4rem;
+    border-radius: 6px;
+    z-index: 10;
+    padding: 1.5rem;
+    text-align: center;
+    animation: menu-mobile 300ms ease-in-out forwards;
+    transform-origin: right center;
+  }
+  .menu.expanded > :first-child {
+    padding-block-end: 1.5em;
+    border-bottom: 1px solid var(--neutral-clr-550);
+  }
+  .dd {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--primary-clr-800);
+    background-color: transparent;
+    padding-block: 0.5em;
+    border: 0;
+    position: relative;
+    opacity: 0.8;
+  }
+  .dd:hover {
+    text-decoration: none;
+  }
+  .dd::after {
+    background-image: url("/src/assets/static/icons/icon-arrow-dark.svg");
+  }
+  .dd.expanded {
+    color: var(--primary-clr-700);
+  }
+  .dd.expanded::after {
+    top: 0.5em;
+  }
+  .dd-container {
+    list-style: none;
+    background-color: var(--neutral-clr-550);
+    border-radius: 6px;
+    padding-block: 1.25rem;
+    padding-inline: 0;
+    position: static;
+    box-shadow: none;
+    animation: dd-mobile 300ms ease-in-out forwards;
+    transform-origin: top;
+  }
+  .dd-link {
+    text-align: center;
+    color: var(--primary-clr-700);
+  }
+
+  .ua-login {
+    color: var(--neutral-clr-800);
+    font-size: 1.125rem;
+    padding-block: 1.5em;
+  }
+
+  .hero-cta.sign-up {
+    color: var(--neutral-clr-400);
+    max-width: fit-content;
+    margin-inline: auto;
+    background-image: var(--bg-hero);
   }
 }
