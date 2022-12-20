@@ -3,7 +3,7 @@ import LaptopMobile from "/src/assets/static/images/illustration-laptop-mobile.s
 const Laptop = () => {
   return (
     <section className="article sm:my-24">
-      <div className="flex flex-col sm:flex-row text-center sm:text-left py-16 sm:py-28 items-center">
+      <div className="flex flex-col sm:flex-row text-center sm:text-left py-16 sm:pt-20 sm:pb-32 items-center">
         <div className="illustration-laptop-container flex-1">
           <picture>
             <source srcSet={LaptopDesktop} media="(min-width: 768px)" />

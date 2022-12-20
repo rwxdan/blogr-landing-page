@@ -2,7 +2,7 @@ import IllustrationPhones from "/src/assets/static/images/illustration-phones.sv
 const Phones = () => {
   return (
     <section className="phones">
-      <div className="article flex flex-col sm:flex-row items-center px-5 justify-between sm:max-h-[25.5rem] text-center sm:text-left">
+      <div className="article flex flex-col sm:flex-row items-center px-5 justify-between sm:max-h-[25.5rem] sm:mt-6 text-center sm:text-left">
         <div>
           <img
             className="illustration-phones"
