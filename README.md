@@ -3,7 +3,7 @@
 
 ## What's this? 🤔
 
-Hi there! 👋 This is my solution for the **Blogr Landing Page** **[FEM](https://frontendmentor.io/)** challenge.
+Hi there! 👋 This is my solution to the **Blogr Landing Page** **[FEM](https://frontendmentor.io/)** challenge.
 
 ### Tools used 🧰
 
