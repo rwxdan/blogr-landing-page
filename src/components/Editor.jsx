@@ -5,13 +5,13 @@ const Editor = () => {
   return (
     <section className="overflow-hidden">
       <div className="article pt-16 sm:pt-[9.5rem]">
-        <h2 className="text-3xl sm:text-[2.425rem] font-overpass font-bold text-[var(--neutral-clr-700)] tracking-tight text-center">
+        <h3 className="title-2 text-3xl sm:text-[2.425rem] font-overpass font-bold text-[var(--neutral-clr-700)] tracking-tight text-center">
           Designed for the future
-        </h2>
+        </h3>
         <div className="flex flex-col-reverse sm:flex-row py-10">
           <div className="p-6 flex flex-shrink-0 flex-col gap-10 text-center sm:text-start sm:items-center">
             <div>
-              <h3>Introducing an extensible editor</h3>
+              <h4 className="title-4">Introducing an extensible editor</h4>
               <p className="purpose">
                 Blogr features an exceedingly intuitive interface which lets you
                 focus on one thing: creating content. The editor supports
@@ -22,7 +22,7 @@ const Editor = () => {
               </p>
             </div>
             <div>
-              <h3>Robust content management</h3>
+              <h4 className="title-4">Robust content management</h4>
               <p className="purpose">
                 Flexible content management enables users to easily move through
                 posts. Increase the usability of your blog by adding customized

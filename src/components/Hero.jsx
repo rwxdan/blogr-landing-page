@@ -2,10 +2,10 @@ const Hero = () => {
   return (
     <section className=" mt-[7.375rem] mb-[8rem]">
       <div className="article text-center pb-6">
-        <h1 className="font-overpass text-[2.25rem] sm:text-[3.875rem] font-bold text-[var(--neutral-clr-400)] tracking-[-0.0325em] mx-2 sm:mx-0">
+        <h1 className="title-1 font-overpass text-[2.25rem] sm:text-[3.875rem] font-bold text-[var(--neutral-clr-400)] tracking-[-0.0325em] mx-2 sm:mx-0">
           A modern publishing platform
         </h1>
-        <h2 className="text-[var(--neutral-clr-400)] text-lg sm:text-xl mx-2 sm:mx-0 opacity-80">
+        <h2 className="title-2 text-[var(--neutral-clr-400)] text-lg sm:text-xl mx-2 sm:mx-0 opacity-80">
           Grow your audience and build your online brand
         </h2>
       </div>
