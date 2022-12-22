@@ -11,7 +11,7 @@ const Phones = () => {
           />
         </div>
         <div className="sm:ml-12 pb-24 sm:pb-0">
-          <h3 className="title-2 font-bold font-overpass tracking-[-1px] text-[var(--neutral-clr-400)]  text-3xl sm:text-[2.425rem] my-1">
+          <h3 className="title-3 font-bold font-overpass tracking-[-1px] text-[var(--neutral-clr-400)]  text-3xl sm:text-[2.425rem] my-1">
             State of the Art Infrastructure
           </h3>
           <p className="font-normal font-overpass tracking-[0.0325em] text-[var(--neutral-clr-400)] font-base leading-7 max-w-[56ch] pt-3">

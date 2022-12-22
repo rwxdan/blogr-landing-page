@@ -15,7 +15,7 @@ const Laptop = () => {
         </div>
         <div className="px-5 flex flex-col gap-10">
           <div>
-            <h4 className="title-3">Free, open, simple</h4>
+            <h4 className="title-4">Free, open, simple</h4>
             <p className="purpose">
               Bloqr is a free and open source application backed bv a large
               community of helpful developers. It supports features such as code
@@ -26,7 +26,7 @@ const Laptop = () => {
             </p>
           </div>
           <div>
-            <h4 className="title-3">Powerful tooling</h4>
+            <h4 className="title-4">Powerful tooling</h4>
             <p className="purpose">
               Batteries included. We built a simple and straightforward CLI tool
               that makes customization and deployment a breeze, but capable Of

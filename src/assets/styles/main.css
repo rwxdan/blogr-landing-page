@@ -28,25 +28,6 @@
   margin-inline: auto;
 }
 
-.title-3 {
-  font-size: 1.75rem;
-  font-weight: 800;
-  font-family: var(--ff-overpass);
-  color: var(--neutral-clr-700);
-  padding-block: 2rem 1.4375rem;
-  letter-spacing: -0.0075em;
-}
-
-.title-3 + .purpose {
-  font-size: 1rem;
-  font-weight: 400;
-  font-family: var(--ff-overpass);
-  color: var(--neutral-clr-700);
-  line-height: 1.7;
-  max-width: 52.5ch;
-  letter-spacing: 0.025em;
-}
-
 .dd {
   font-family: var(--ff-ubuntu);
   font-size: 1rem;
@@ -176,6 +157,25 @@
 
 .footer-link {
   opacity: 0.8;
+}
+
+.title-4 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-family: var(--ff-overpass);
+  color: var(--neutral-clr-700);
+  padding-block: 2rem 1.4375rem;
+  letter-spacing: -0.0075em;
+}
+
+.purpose {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--ff-overpass);
+  color: var(--neutral-clr-700);
+  line-height: 1.7;
+  max-width: 52.5ch;
+  letter-spacing: 0.025em;
 }
 
 @keyframes dd {
